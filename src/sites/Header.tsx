@@ -4,16 +4,18 @@ import './css/Header.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import AppBar from '@material-ui/core/AppBar'
-import Button from '@material-ui/core/Button'
-import Grid from '@material-ui/core/Grid'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
-import Slide from '@material-ui/core/Slide'
-import Fab from '@material-ui/core/Fab'
+import { 
+  AppBar,
+  Button,
+  Grid,
+  Toolbar,
+  Typography,
+  Slide,
+  Fab,
+  Zoom,
+  useScrollTrigger
+} from '@material-ui/core'
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp'
-import Zoom from '@material-ui/core/Zoom'
-import useScrollTrigger from '@material-ui/core/useScrollTrigger'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import { Link } from 'react-scroll'
 
